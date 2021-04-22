@@ -22,7 +22,7 @@ Iniciar el servidor web, iniciar MySQL y dirigirse a PHPMyAdmin
 
 127.0.0.1/PHPMyadmin_
 
-_Aqui iniciar sesion y crear una base de datos llamada crud e importamos la base de datos._
+_Aqui iniciar sesion y crear una base de datos llamada crud e importar la base de datos._
 
 
 _Para configurar la conexion a la base de datos debemos dirigirnos a:_
@@ -63,6 +63,11 @@ Declarar la ruta como valida en_
 ```
 modelo/RutasM.php
 
+```
+_Agregar el modulo al menu_
+```
+vistas/modulos/menu.php
+<li><a href="index.php?ruta=admin">Administradores</a></li>
 ```
 _Crear la vista_
 
